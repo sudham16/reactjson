@@ -1,0 +1,414 @@
+[
+    {
+       "data": {
+          "cloudFoundaryApps": {
+             "edges": [
+                {
+                   "node": {
+                      "appId": "123456",
+                      "name": "capcap-cap-test1",
+                      "application": {
+                         "applicationName": "Centralized test1",
+                         "owningLob": "DEP1",
+                         "techGroupOwner": "Op team Nayan"
+                      },
+                      "buildpacks": [
+                         {
+                            "name": "java-buildpack",
+                            "version": "4.33.22.1"
+                         },
+                         {
+                            "name": "java-buildpack1",
+                            "version": "4.33.22.12"
+                         }
+                      ],
+                      "guid": "123aac-a2aw-e33e-scef23412",
+                      "restaged": "2021-08-09T01:08:28Z",
+                      "updated": "2021-09-06T13:31:28Z",
+                      "state": "STOPPED",
+                      "envVars": [
+                         {
+                            "key": "Java Version",
+                            "value": "11.0.+"
+                         }
+                      ],
+                      "foundation": {
+                         "region": "NA",
+                         "pool": "na-1Z",
+                         "env": "dev",
+                         "pci": false
+                      }
+                   }
+                },
+                {
+                   "node": {
+                      "appId": "12345",
+                      "name": "capcap-cap-test2",
+                      "application": {
+                         "applicationName": "Centralized test2",
+                         "owningLob": "DEP2",
+                         "techGroupOwner": "Op team Nayan"
+                      },
+                      "buildpacks": [
+                         {
+                            "name": "java-buildpack",
+                            "version": "4.33.22.1"
+                         }
+                      ],
+                      "guid": "123aac-a2aw-e33e-scef23422",
+                      "restaged": "2021-08-09T01:08:28Z",
+                      "updated": "2021-09-06T13:31:28Z",
+                      "state": "STOPPED",
+                      "envVars": [
+                         {
+                            "key": "Java Version",
+                            "value": "11.0.+"
+                         }
+                      ],
+                      "foundation": {
+                         "region": "NA",
+                         "pool": "na-1Z",
+                         "env": "dev",
+                         "pci": false
+                      }
+                   }
+                },
+                {
+                   "node": {
+                      "appId": "12345",
+                      "name": "capcap-cap-test3",
+                      "application": {
+                         "applicationName": "Centralized test3",
+                         "owningLob": "DEP1",
+                         "techGroupOwner": "Op team Nayan"
+                      },
+                      "buildpacks": [
+                         {
+                            "name": "java-buildpack",
+                            "version": "4.33.22.1"
+                         }
+                      ],
+                      "guid": "123aac-a2aw-e33e-scef23412",
+                      "restaged": "2021-08-09T01:08:28Z",
+                      "updated": "2021-09-06T13:31:28Z",
+                      "state": "STOPPED",
+                      "envVars": [
+                         {
+                            "key": "Java Version",
+                            "value": "11.0.+"
+                         }
+                      ],
+                      "foundation": {
+                         "region": "NA",
+                         "pool": "na-1Z",
+                         "env": "dev",
+                         "pci": false
+                      }
+                   }
+                },
+                {
+                  "node": {
+                     "appId": "22345",
+                     "name": "capcap-cap-test8",
+                     "application": {
+                        "applicationName": "Centralized test3",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               },
+               {
+                  "node": {
+                     "appId": "23345",
+                     "name": "capcap-cap-test21",
+                     "application": {
+                        "applicationName": "Centralized test3",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               },
+               {
+                  "node": {
+                     "appId": "31245",
+                     "name": "capcap-cap-test35",
+                     "application": {
+                        "applicationName": "Centralized test3",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               },
+               {
+                  "node": {
+                     "appId": "42222",
+                     "name": "capcap-cap-test345",
+                     "application": {
+                        "applicationName": "Centralized test3",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               },
+               {
+                  "node": {
+                     "appId": "321245",
+                     "name": "capcap-cap-test357",
+                     "application": {
+                        "applicationName": "Centralized test3",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               },
+               {
+                  "node": {
+                     "appId": "52222",
+                     "name": "capcap-cap-test346",
+                     "application": {
+                        "applicationName": "Centralized test3",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               },
+               {
+                  "node": {
+                     "appId": "82222",
+                     "name": "capcap-cap-test3453",
+                     "application": {
+                        "applicationName": "Centralized test3",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               },
+               {
+                  "node": {
+                     "appId": "4521245",
+                     "name": "capcap-cap-test358",
+                     "application": {
+                        "applicationName": "Centralized test3",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               },
+               {
+                  "node": {
+                     "appId": "62222",
+                     "name": "capcap-cap-test347",
+                     "application": {
+                        "applicationName": "Centralized test332",
+                        "owningLob": "DEP1",
+                        "techGroupOwner": "Op team Nayan"
+                     },
+                     "buildpacks": [
+                        {
+                           "name": "java-buildpack",
+                           "version": "4.33.22.1"
+                        }
+                     ],
+                     "guid": "123aac-a2aw-e33e-scef23412",
+                     "restaged": "2021-08-09T01:08:28Z",
+                     "updated": "2021-09-06T13:31:28Z",
+                     "state": "STOPPED",
+                     "envVars": [
+                        {
+                           "key": "Java Version",
+                           "value": "11.0.+"
+                        }
+                     ],
+                     "foundation": {
+                        "region": "NA",
+                        "pool": "na-1Z",
+                        "env": "dev",
+                        "pci": false
+                     }
+                  }
+               }
+             ],
+             "pageInfo": {
+                "hasNextPage": true,
+                "endCursor": "MA=="
+             }
+          }
+       }
+    }
+ ]

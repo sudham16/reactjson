@@ -1,0 +1,42 @@
+.blue-header .react-bootstrap-table th {
+    background-color: green ;
+    color: white ;
+  }
+  .table-bordered {
+    border: 2px double orange !important;
+    
+  }
+  .table-hover tbody tr:hover {
+    color: yellow !important;
+    background-color: darkslategrey;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: darkslategrey;
+    border-color: darkslategrey;
+}
+.show>.btn-primary.dropdown-toggle:focus{
+    color: #fff;
+    background-color: darkslategrey;
+    border-color: darkslategrey;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 5px dashed;
+    border-top: 5px solid \9;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    border-top: 0;
+    border-bottom: 5px dashed;
+    border-bottom: 5px solid \9;
+    content: "";
+  }
+
